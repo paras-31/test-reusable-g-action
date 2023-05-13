@@ -15,11 +15,13 @@ jobs:
     steps: 
 
     - uses: actions/checkout@v3 
+    
+    - name: make a folder 
+    
+      run: touch file1
 
     - name: list the repo files 
 
       run: ls 
       
-    - name: make a folder 
-    
-      run: touch file1
+

@@ -19,3 +19,7 @@ jobs:
     - name: list the repo files 
 
       run: ls 
+      
+    - name: make a folder 
+    
+      run: touch file1
